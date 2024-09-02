@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    .phone {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .screen {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .controls {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .playback-control {
+        font-size: 40px;
+    }
+}
